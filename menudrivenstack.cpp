@@ -37,7 +37,7 @@ class Stack{
     }
     void Display(){
         cout<<"The Stack : ";
-        for(int i=size-1;i>0;i--){
+        for(int i=size-1;i>=0;i--){
             cout<<arr[i]<<" ";
         }
     }
