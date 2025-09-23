@@ -37,7 +37,7 @@ public class Stack{
     }
     public static void Display() {
         System.out.println("The Stack: ");
-        for(int i=0;i<size;i++){
+        for(int i=size-1;i>0;i--){
             System.out.println(arr[i]);
         }
     }
