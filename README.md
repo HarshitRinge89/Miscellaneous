@@ -7,3 +7,4 @@ Misc codes of C++ and Java
  4. Menu Driven Queue Program(C++).
  5. Menu Driven Convertor(C++).
  6. Quadratic Roots Finder(C++).
+ 7. Simple Search inside an Array(C++).
