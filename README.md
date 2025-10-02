@@ -8,4 +8,5 @@ Misc codes of C++ and Java
  5. Menu Driven Convertor(C++).
  6. Quadratic Roots Finder(C++).
  7. Simple Search inside an Array(C++).
- 8. Matrix Calculator(Java).||WIP||
+ 8. Linked List Implementation(Java).
+ 9. Matrix Calculator(Java).||WIP||
