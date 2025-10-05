@@ -19,7 +19,7 @@ class LinkedList{
     LinkedList(){
         top=NULL;
     }
-    void insert(int data){
+    void push(int data){
         Node *newNode = new Node(data);
         if(top== NULL){
             top=newNode;
@@ -30,7 +30,7 @@ class LinkedList{
         newNode->next=this->top;
         this->top=newNode;
     }
-    void traversal(){
+    void display(){
         Node* temp = top;
         if(top==NULL){
             cout<<"Stack Underflow! ";
@@ -42,7 +42,7 @@ class LinkedList{
             temp=temp->next;
         }
     }
-    void del(){
+    void pop(){
         if(top==nullptr){
             cout<<"List is Empty";
         }
@@ -68,9 +68,9 @@ int main(){
         cout<<"Enter your choice: ";
         cin>>ch;
         switch(ch){
-            case 1: cout<<"Enter the value to be inserted: ";cin>>data; list.insert(data);break;
-            case 2: list.del();break;
-            case 3: list.traversal();break;
+            case 1: cout<<"Enter the value to be inserted: ";cin>>data; list.push(data);break;
+            case 2: list.pop();break;
+            case 3: list.display();break;
             case 4: list.peek();break;
             case 5: cout<<"Menu exited!";break;
             default: cout<<"Invalid Case!"<<endl;
