@@ -1,15 +1,16 @@
 # Miscellaneous
 Misc codes of C++ and Java
  Contents:
- 1. Menu Driven Stack Program(C++).
- 2. Menu Driven Stack Program(Java).
- 3. Menu Driven Queue Program(Java).
- 4. Menu Driven Queue Program(C++).
+ 1. Menu Driven Stack Program(using arrays)(C++).
+ 2. Menu Driven Stack Program(using arrays)(Java).
+ 3. Menu Driven Queue Program(using arrays)(Java).
+ 4. Menu Driven Queue Program(using arrays)(C++).
  5. Menu Driven Convertor(C++).
  6. Quadratic Roots Finder(C++).
  7. Simple Search inside an Array(C++).
  8. Linked List Implementation(Java).
  9. Matrix Calculator(Java).||WIP||
-10. Linked List Implementation(C++)
-11. Menu Driven Insertion,Deletion& Traversal on LinkedList(C++).
-12. Terminal based RPG(Java)
+10. Linked List Implementation(C++).
+11. Menu Driven Insertion,Deletion & Traversal on LinkedList(C++).
+12. Terminal based RPG(Java).
+13. Menu Driven Stack Program(using Linked List)(C++).
