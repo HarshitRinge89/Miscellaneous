@@ -13,10 +13,10 @@ class Node{
         this->next=NULL;
     }
 };
-class LinkedList{
+class Stack{
     Node*top;
     public:
-    LinkedList(){
+    Stack(){
         top=NULL;
     }
     void push(int data){
@@ -57,7 +57,7 @@ class LinkedList{
 };
 int main(){
     int ch,data,n;
-    LinkedList list;
+    Stack stk;
     do{
         cout<<endl<<"Menu"<<endl;
         cout<<"1. Push "<<endl;
@@ -68,10 +68,10 @@ int main(){
         cout<<"Enter your choice: ";
         cin>>ch;
         switch(ch){
-            case 1: cout<<"Enter the value to be inserted: ";cin>>data; list.push(data);break;
-            case 2: list.pop();break;
-            case 3: list.display();break;
-            case 4: list.peek();break;
+            case 1: cout<<"Enter the value to be inserted: ";cin>>data; stk.push(data);break;
+            case 2: stk.pop();break;
+            case 3: stk.display();break;
+            case 4: stk.peek();break;
             case 5: cout<<"Menu exited!";break;
             default: cout<<"Invalid Case!"<<endl;
         }
