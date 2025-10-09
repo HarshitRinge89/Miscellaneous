@@ -18,3 +18,4 @@ Misc codes of C++ and Java
 15. Ticket Distribution System Implemented with Circular Queue(using arrays)(C++).
 16. Menu Driven Circular Queue Program(using Linked List)(C++).
 17. Menu Driven Binary Tree Program(Java).
+18. Infix to Psot FIx COnvertor using Stack(C++).
