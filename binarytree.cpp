@@ -97,22 +97,39 @@ class binarytree{
         }
         return root;
     }
+    void search(int data){
+        Node*curr=root;
+        while(curr!=nullptr){
+            if(data==curr->data){
+                cout<<"Element found!\n";
+                return;
+            }
+            else if(data<curr->data){
+                curr=curr->left;
+            }
+            else{
+                curr=curr->right;
+            }
+        }
+        cout<<"Element not found!\n";
+    }
 };
 int main(){
     binarytree bin;
     int ch,dt;
     do{
         cout<<"\nMenu\n";
-        cout<<"1. Insertion \n"<<"2. Traversal \n"<<"3. Delete \n"<<"4. Exit \n"<<"Enter your choice: ";
+        cout<<"1. Insertion\n"<<"2. Traversal\n"<<"3. Delete\n"<<"4. Search\n"<<"5. Exit\n"<<"Enter your choice: ";
         cin>>ch;
         switch(ch){
             case 1: cout<<"Enter the value to be inserted: ";cin>>dt; bin.insert(dt);break;
             case 2: bin.show();break;
             case 3: cout<<"Enter the value to be deleted: ";cin>>dt; bin.del(dt);break;
-            case 4: cout<<"Menu exited!";break;
+            case 4: cout<<"Enter the value to be searched: ";cin>>dt; bin.search(dt);break;
+            case 5: cout<<"Menu exited!";break;
             default: cout<<"Invalid Case!\n";
         }
     }
-    while(ch!=4);
+    while(ch!=5);
     return 0;
 }
