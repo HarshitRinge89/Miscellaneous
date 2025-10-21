@@ -39,7 +39,7 @@ class binarytree{
         return root;
     }
     void show(){
-        cout<<"The Tree with sorted values: ";
+        cout<<"The Tree with sorted values: \n";
         showrec(root);
     }
     void showrec(Node*root){
@@ -48,57 +48,71 @@ class binarytree{
             cout<<root->data<<" \n";
             showrec(root->right);
         }
-        cout<<" ";
     }
-    // void del(){
-    //     deleterec(root);
-    // }
-    // Node*deleterec(Node root){
-    //     Node*temp;
-    //     if(root==nullptr){
-    //         cout<<"Tree is Empty!";
-    //     }
-    //     if(root->left==nullptr && root->right==nullptr){
-    //         delete root;
-    //         cout<<"Node Deleted!";
-    //         return nullptr;
-    //     }
-    //     else if(root->left==nullptr){
-    //         temp=root->right;
-    //         delete temp;
-    //         cout<<"Node Deleted!";
-    //         return temp;
-    //     }
-    //     else if(root->right==nullptr){
-    //         temp=root->left;
-    //         delete temp;
-    //         cout<<"Node Deleted";
-    //         return temp;
-    //     }
-    //     while (Node->left!=nullptr){
-    //         root=root->left;
-            
-    //     }
-        
-    //     return temp;
-    // }
+    void del(int data){
+        if(root==nullptr){
+            cout<<"Tree is Empty!\n";
+            return;
+        }
+        root=deleterec(root,data);
+        cout<<"Node Deleted!";
+    }
+    Node*findMin(Node*root){
+        while(root->left!=nullptr){
+            root=root->left;
+        }
+        return root;
+    }
+    Node*deleterec(Node*root,int data){
+        if(root==nullptr){
+            cout<<"Tree is Empty!";
+            return root;
+        }
+        if(data<root->data){
+            root->left=deleterec(root->left,data);
+        }
+        else if(data>root->data){
+            root->right=deleterec(root->right,data);
+        }
+        else{
+            if(root->left==nullptr && root->right==nullptr){
+                delete root;
+                return nullptr;
+            }
+            else if(root->left==nullptr){
+                Node*temp=root->right;
+                delete root;
+                return temp;
+            }
+            else if(root->right==nullptr){
+                Node*temp=root->left;
+                delete root;
+                return temp;
+            }
+            else{
+                Node*temp=findMin(root->right);
+                root->data=temp->data;
+                root->right=deleterec(root->right,temp->data);
+            }
+        }
+        return root;
+    }
 };
 int main(){
     binarytree bin;
     int ch,dt;
     do{
         cout<<"\nMenu\n";
-        cout<<"1. Insertion \n"<<"2. Traversal \n"<<"4. Exit \n"<<"Enter your choice: ";
-        //"3. Delete \n"<<
+        cout<<"1. Insertion \n"<<"2. Traversal \n"<<"3. Delete \n"<<"4. Exit \n"<<"Enter your choice: ";
         cin>>ch;
         switch(ch){
             case 1: cout<<"Enter the value to be inserted: ";cin>>dt; bin.insert(dt);break;
             case 2: bin.show();break;
-            // case 3: bin.del();break;
+            case 3: cout<<"Enter the value to be deleted: ";cin>>dt; bin.del(dt);break;
             case 4: cout<<"Menu exited!";break;
             default: cout<<"Invalid Case!\n";
         }
     }
     while(ch!=4);
     return 0;
-    }
+}
