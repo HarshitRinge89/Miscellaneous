@@ -57,6 +57,8 @@ Tree
 
 23. Matrix Calculator – Java
 
+24. checkArmstrongNumber - Java
+
 🎮 Applications
 
 24. Contact Manager – Java
