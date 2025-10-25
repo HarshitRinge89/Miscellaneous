@@ -1,26 +1,64 @@
-# Miscellaneous
-Misc codes of C++ and Java
- Contents:
- 1. Stack Implementation(using arrays)(C++).
- 2. Stack Implementation(using arrays)(Java).
- 3. Queue Implementation(using arrays)(Java).
- 4. Queue Implementation(using arrays)(C++).
- 5. Convertor(C++).
- 6. Quadratic Root Calculator(C++).
- 7. Simple Search in an Array(C++).
- 8. Linked List Implementation(Java).
- 9. Matrix Calculator(Java).
-10. Linked List Implementation(C++).
-11. Insertion,Deletion & Traversal on LinkedList(C++).
-12. Terminal based RPG(Java).
-13. Stack Program(using Linked List)(C++).
-14. Queue Program(using Linked List)(C++).
-15. Ticket Distribution System Implemented with Circular Queue(using arrays)(C++).
-16. Circular Queue Program(using Linked List)(C++).
-17. Binary Tree Program(Java).
-18. Infix to Postfix Convertor using Stack(C++).
-19. Infix to Prefix Convertor using Stack(C++).
-20. Doubly Linked List Implementation(C++).
-21. Binary Search Implementation(Java).
-22. Contact Manager(Java).
-23. Binary Tree Implementation(C++).
+🧱 Data Structures
+Stack
+
+1. Stack Implementation (using Arrays) – C++
+
+2. Stack Implementation (using Arrays) – Java
+
+3. Stack Implementation (using Linked List) – C++
+
+Queue
+
+4. Queue Implementation (using Arrays) – Java
+
+5. Queue Implementation (using Arrays) – C++
+
+6. Queue Implementation (using Linked List) – C++
+
+7. Circular Queue (using Linked List) – C++
+
+8. Circular Queue – Ticket Distribution System (using Arrays) – C++
+
+9. Double Ended Queue (Deque) Implementation – C++
+
+Linked List
+
+10. Linked List Implementation – Java
+
+11. Linked List Implementation – C++
+
+12. Insertion, Deletion & Traversal on Linked List – C++
+
+13. Doubly Linked List Implementation – C++
+
+14. Circular Linked List Implementation – C++
+
+Tree
+
+15. Binary Tree Implementation – C++
+
+16. Binary Tree Implementation – Java
+
+⚙️ Algorithms
+
+17. Simple Search in an Array – C++
+
+18. Binary Search Implementation – Java
+
+19. Infix to Postfix Converter using Stack – C++
+
+20. Infix to Prefix Converter using Stack – C++
+
+🧮 Math / Utility Programs
+
+21. Convertor (e.g., Unit/Number System) – C++
+
+22. Quadratic Root Calculator – C++
+
+23. Matrix Calculator – Java
+
+🎮 Applications
+
+24. Contact Manager – Java
+
+25. Terminal-Based RPG – Java
