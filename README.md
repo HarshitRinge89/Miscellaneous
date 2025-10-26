@@ -59,8 +59,10 @@ Tree
 
 24. checkArmstrongNumber - Java
 
+25. Calculate and print the *average CPU usage* of all processes where the PROGRAM name is *Java*.
+
 🎮 Applications
 
-24. Contact Manager – Java
+26. Contact Manager – Java
 
-25. Terminal-Based RPG – Java
+27. Terminal-Based RPG – Java
