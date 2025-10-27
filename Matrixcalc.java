@@ -52,9 +52,15 @@ public class Matrix {
         }
     }
     public static void multiplication(int MatA[][],int MatB[][]){
+        int MatC[][]= new int[n][n];
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                System.out.print(MatA[i][j]*MatB[i][j] + " ");
+                System.out.print(MatC[i][j]+=MatA[i][j]*MatB[i][j] + " ");
+            }
+        }
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                System.out.print(MatC[i][j] + " ");
             }
             System.out.println();
         }
