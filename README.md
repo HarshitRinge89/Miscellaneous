@@ -49,6 +49,8 @@ Tree
 
 4. Infix to Prefix Converter using Stack – C++
 
+5. Selection Sort - Java
+
 🧮 Math / Utility Programs
 
 1. Convertor (e.g., Unit/Number System) – C++
