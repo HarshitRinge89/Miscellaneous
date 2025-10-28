@@ -9,60 +9,62 @@ Stack
 
 Queue
 
-4. Queue Implementation (using Arrays) – Java
+1. Queue Implementation (using Arrays) – Java
 
-5. Queue Implementation (using Arrays) – C++
+2. Queue Implementation (using Arrays) – C++
 
-6. Queue Implementation (using Linked List) – C++
+3. Queue Implementation (using Linked List) – C++
 
-7. Circular Queue (using Linked List) – C++
+4. Circular Queue (using Linked List) – C++
 
-8. Circular Queue – Ticket Distribution System (using Arrays) – C++
+5. Circular Queue – Ticket Distribution System (using Arrays) – C++
 
-9. Double Ended Queue (Deque) Implementation – C++
+6. Double Ended Queue (Deque) Implementation – C++
 
 Linked List
 
-10. Linked List Implementation – Java
+1. Linked List Implementation – Java
 
-11. Linked List Implementation – C++
+2. Linked List Implementation – C++
 
-12. Insertion, Deletion & Traversal on Linked List – C++
+3. Insertion, Deletion & Traversal on Linked List – C++
 
-13. Doubly Linked List Implementation – C++
+4. Doubly Linked List Implementation – C++
 
-14. Circular Linked List Implementation – C++
+5. Circular Linked List Implementation – C++
 
 Tree
 
-15. Binary Tree Implementation – C++
+1. Binary Tree Implementation – C++
 
-16. Binary Tree Implementation – Java
+2. Binary Tree Implementation – Java
 
 ⚙️ Algorithms
 
-17. Simple Search in an Array – C++
+1. Simple Search in an Array – C++
 
-18. Binary Search Implementation – Java
+2. Binary Search Implementation – Java
 
-19. Infix to Postfix Converter using Stack – C++
+3. Infix to Postfix Converter using Stack – C++
 
-20. Infix to Prefix Converter using Stack – C++
+4. Infix to Prefix Converter using Stack – C++
 
 🧮 Math / Utility Programs
 
-21. Convertor (e.g., Unit/Number System) – C++
+1. Convertor (e.g., Unit/Number System) – C++
 
-22. Quadratic Root Calculator – C++
+2. Quadratic Root Calculator – C++
 
-23. Matrix Calculator – Java
+3. Matrix Calculator – Java
 
-24. checkArmstrongNumber - Java
+4. checkArmstrongNumber - Java
 
-25. Calculate and print the *average CPU usage* of all processes where the PROGRAM name is *Java*.
+5. Calculate and print the *average CPU usage* of all processes where the PROGRAM name is *Java*. - Java
+
+6. Calculate Day of the Week from given Date(works between 1500s to 3000 Gregorian Calendar Years). - Java
 
 🎮 Applications
 
-26. Contact Manager – Java
+1. Contact Manager – Java
 
-27. Terminal-Based RPG – Java
+2. Terminal-Based RPG – Java
