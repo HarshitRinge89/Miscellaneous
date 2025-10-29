@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Solution {
+public class averageCpuConsumption {
     public static int average(int pid[],int cpu[],String str[],int n){
         int avg=0;
         for(int j=0;j<n;j++){
