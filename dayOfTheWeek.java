@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Solution {
+public class dayOfTheWeek {
     static String getDayOfWeek(int d, int m, int y) {
         String result="";
         int ans=0;
