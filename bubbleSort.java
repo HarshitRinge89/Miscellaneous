@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class Solution {
+public class bubbleSort {
     static Scanner sc= new Scanner(System.in);
     public static void insert(ArrayList<Integer> original){
         char x= 'y';
