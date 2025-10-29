@@ -51,6 +51,8 @@ Tree
 
 5. Selection Sort - Java
 
+6. Bubble Sort - Java
+
 🧮 Math / Utility Programs
 
 1. Convertor (e.g., Unit/Number System) – C++
