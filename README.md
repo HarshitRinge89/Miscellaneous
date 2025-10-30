@@ -7,6 +7,8 @@ Stack
 
 3. Stack Implementation (using Linked List) – C++
 
+4. Stack Implementation (using Linked List) - Java
+
 Queue
 
 1. Queue Implementation (using Arrays) – Java
@@ -15,11 +17,13 @@ Queue
 
 3. Queue Implementation (using Linked List) – C++
 
-4. Circular Queue (using Linked List) – C++
+4. Queue Implementation (using Linked List) - Java
 
-5. Circular Queue – Ticket Distribution System (using Arrays) – C++
+5. Circular Queue (using Linked List) – C++
 
-6. Double Ended Queue (Deque) Implementation – C++
+6. Circular Queue – Ticket Distribution System (using Arrays) – C++
+
+7. Double Ended Queue (Deque) Implementation – C++
 
 Linked List
 
@@ -35,9 +39,9 @@ Linked List
 
 Tree
 
-1. Binary Tree Implementation – C++
+1. Binary Search Tree Implementation – C++
 
-2. Binary Tree Implementation – Java
+2. Binary Search Tree Implementation – Java
 
 ⚙️ Algorithms
 
