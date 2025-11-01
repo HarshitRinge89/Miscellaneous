@@ -59,6 +59,12 @@ Tree
 
 7. Merge Sort - Java
 
+8. Insertion Sort - Java
+
+9. Bubble Sort - C++
+
+10. Selection Sort - C++
+
 🧮 Math / Utility Programs
 
 1. Convertor (e.g., Unit/Number System) – C++
