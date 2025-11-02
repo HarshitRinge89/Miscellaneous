@@ -65,6 +65,8 @@ Tree
 
 10. Selection Sort - C++
 
+11. Quick Sort - Java
+
 🧮 Math / Utility Programs
 
 1. Convertor (e.g., Unit/Number System) – C++
