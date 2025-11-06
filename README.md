@@ -1,90 +1,93 @@
-🧱 Data Structures
-Stack
+---
 
-1. Stack Implementation (using Arrays) – C++
+## 🧱 **Data Structures**
 
-2. Stack Implementation (using Arrays) – Java
+### **Stack**
 
-3. Stack Implementation (using Linked List) – C++
+1. Stack Implementation (using Arrays) – **C++**
+2. Stack Implementation (using Arrays) – **Java**
+3. Stack Implementation (using Linked List) – **C++**
+4. Stack Implementation (using Linked List) – **Java**
 
-4. Stack Implementation (using Linked List) - Java
+---
 
-Queue
+### **Queue**
 
-1. Queue Implementation (using Arrays) – Java
+1. Queue Implementation (using Arrays) – **Java**
+2. Queue Implementation (using Arrays) – **C++**
+3. Queue Implementation (using Linked List) – **C++**
+4. Queue Implementation (using Linked List) – **Java**
+5. Circular Queue (using Linked List) – **C++**
+6. Circular Queue – Ticket Distribution System (using Arrays) – **C++**
+7. Double Ended Queue (Deque) Implementation – **C++**
 
-2. Queue Implementation (using Arrays) – C++
+---
 
-3. Queue Implementation (using Linked List) – C++
+### **Linked List**
 
-4. Queue Implementation (using Linked List) - Java
+1. Linked List Implementation – **Java**
+2. Linked List Implementation – **C++**
+3. Insertion, Deletion & Traversal on Linked List – **C++**
+4. Doubly Linked List Implementation – **C++**
+5. Circular Linked List Implementation – **C++**
 
-5. Circular Queue (using Linked List) – C++
+---
 
-6. Circular Queue – Ticket Distribution System (using Arrays) – C++
+### **Tree**
 
-7. Double Ended Queue (Deque) Implementation – C++
+1. Binary Search Tree Implementation – **C++**
+2. Binary Search Tree Implementation – **Java**
 
-Linked List
+---
 
-1. Linked List Implementation – Java
+## ⚙️ **Algorithms**
 
-2. Linked List Implementation – C++
+### **Searching**
 
-3. Insertion, Deletion & Traversal on Linked List – C++
+1. Simple Search in an Array – **C++**
+2. Binary Search Implementation – **Java**
 
-4. Doubly Linked List Implementation – C++
+---
 
-5. Circular Linked List Implementation – C++
+### **Stack-Based Conversions**
 
-Tree
+1. Infix to Postfix Converter using Stack – **C++**
+2. Infix to Prefix Converter using Stack – **C++**
 
-1. Binary Search Tree Implementation – C++
+---
 
-2. Binary Search Tree Implementation – Java
+### **Sorting**
 
-⚙️ Algorithms
+1. Selection Sort – **Java**
+2. Bubble Sort – **Java**
+3. Merge Sort – **Java**
+4. Insertion Sort – **Java**
+5. Quick Sort – **Java**
+6. Bubble Sort – **C++**
+7. Selection Sort – **C++**
 
-1. Simple Search in an Array – C++
+---
 
-2. Binary Search Implementation – Java
+### **Heap**
 
-3. Infix to Postfix Converter using Stack – C++
+1. Binary Maximum Heap – **C++**
 
-4. Infix to Prefix Converter using Stack – C++
+---
 
-5. Selection Sort - Java
+## 🧮 **Math / Utility Programs**
 
-6. Bubble Sort - Java
+1. Convertor (e.g., Unit/Number System) – **C++**
+2. Quadratic Root Calculator – **C++**
+3. Matrix Calculator – **Java**
+4. Check Armstrong Number – **Java**
+5. Average CPU Usage of all Java Processes – **Java**
+6. Calculate Day of the Week from Date (1500–3000) – **Java**
 
-7. Merge Sort - Java
+---
 
-8. Insertion Sort - Java
+## 🎮 **Applications**
 
-9. Bubble Sort - C++
+1. Contact Manager – **Java**
+2. Terminal-Based RPG – **Java**
 
-10. Selection Sort - C++
-
-11. Quick Sort - Java
-
-12. Binary Maximum Heap - C++
-
-🧮 Math / Utility Programs
-
-1. Convertor (e.g., Unit/Number System) – C++
-
-2. Quadratic Root Calculator – C++
-
-3. Matrix Calculator – Java
-
-4. checkArmstrongNumber - Java
-
-5. Calculate and print the *average CPU usage* of all processes where the PROGRAM name is *Java*. - Java
-
-6. Calculate Day of the Week from given Date(works between 1500s to 3000 Gregorian Calendar Years). - Java
-
-🎮 Applications
-
-1. Contact Manager – Java
-
-2. Terminal-Based RPG – Java
+---
