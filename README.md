@@ -67,6 +67,8 @@ Tree
 
 11. Quick Sort - Java
 
+12. Binary Maximum Heap - C++
+
 🧮 Math / Utility Programs
 
 1. Convertor (e.g., Unit/Number System) – C++
