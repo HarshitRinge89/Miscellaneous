@@ -56,7 +56,7 @@ class binaryheap{
     }
     void display(){
         cout<<"The Binary Heap: ";
-        for(int i=size;i>=0;i--){
+        for(int i=0;i<size;i++){
             cout<<arr[i]<<" ";
         }
     }
