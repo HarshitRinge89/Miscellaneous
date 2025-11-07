@@ -71,6 +71,7 @@
 ### **Heap**
 
 1. Binary Maximum Heap – **C++**
+2. Binary Minimum Heap - **Java**
 
 ---
 
