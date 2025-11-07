@@ -65,6 +65,7 @@
 5. Quick Sort – **Java**
 6. Bubble Sort – **C++**
 7. Selection Sort – **C++**
+8. Quick Sort - **C++**
 
 ---
 
