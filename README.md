@@ -63,9 +63,11 @@
 3. Merge Sort – **Java**
 4. Insertion Sort – **Java**
 5. Quick Sort – **Java**
-6. Bubble Sort – **C++**
-7. Selection Sort – **C++**
-8. Quick Sort - **C++**
+6. Heap Sort - **Java**
+7. Bubble Sort – **C++**
+8. Selection Sort – **C++**
+9. Quick Sort - **C++**
+10. Heap Sort - **C++**
 
 ---
 
