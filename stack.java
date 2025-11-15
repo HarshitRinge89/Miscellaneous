@@ -3,11 +3,6 @@ public class Stack{
     static int top=-1;
     static int size=5;
     static int arr[]=new int[size];
-    // public Stack(int cap) {
-    //     size=cap;
-    //     arr = new int[size];
-    //     top = -1;
-    // }
     public static void Push(int data) {
         if(top==size-1){
             System.out.println("Stack Overflow! ");

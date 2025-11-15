@@ -17,9 +17,10 @@
 2. Queue Implementation (using Arrays) – **C++**
 3. Queue Implementation (using Linked List) – **C++**
 4. Queue Implementation (using Linked List) – **Java**
-5. Circular Queue (using Linked List) – **C++**
-6. Circular Queue – Ticket Distribution System (using Arrays) – **C++**
-7. Double Ended Queue (Deque) Implementation – **C++**
+5. Priority Queue Implementation (using Heap) - **C++**
+6. Circular Queue (using Linked List) – **C++**
+7. Circular Queue – Ticket Distribution System (using Arrays) – **C++**
+8. Double Ended Queue (Deque) Implementation – **C++**
 
 ---
 
