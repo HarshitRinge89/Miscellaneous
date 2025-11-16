@@ -49,8 +49,10 @@
 2. Binary Search Implementation – **Java**
 3. Breadth First Search Implementation - **C++**
 4. Depth First Search Implementation - **C++**
+<<<<<<< HEAD
 5. Depth First Search Implementation - **Java**
 6. Breadth First Search Implementation - **Java**
+>>>>>>> fadf5109d1ce8a5e349306314f444a58d5d94199
 
 ---
 
