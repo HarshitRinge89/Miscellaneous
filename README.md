@@ -48,10 +48,9 @@
 1. Simple Search in an Array – **C++**
 2. Binary Search Implementation – **Java**
 3. Breadth First Search Implementation - **C++**
-<<<<<<< HEAD
 4. Depth First Search Implementation - **C++**
 =======
->>>>>>> d2032b9a6179eb48223b35147f6f8796bb2afaa3
+
 
 ---
 
