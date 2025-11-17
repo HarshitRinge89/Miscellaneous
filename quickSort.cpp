@@ -46,9 +46,18 @@ class Sort{
 int main(){
     Sort SS;
     vector<int> og;
-    SS.insert(og);
-    SS.Display(og);
-    SS.quickSort(og,0,og.size()-1);
-    SS.Display(og);
+    int choice;
+    do{
+        cout<<"\n Menu\n"<<"1.Insert\n"<<"2.Display\n"<<"3.Sort\n"<<"4.Exit\n"<<"Enter your choice:";
+        cin>>choice;
+        switch(choice){
+            case 1: SS.insert(og);break;
+            case 2: SS.Display(og);break;
+            case 3: SS.quickSort(og,0,og.size()-1);break;
+            case 4: cout<<"Menu Exited!\n";break;
+            default: cout<<"\nInvalid Choice!\n";
+        }
+    }
+    while(choice!=4); 
     return 0;
 }
