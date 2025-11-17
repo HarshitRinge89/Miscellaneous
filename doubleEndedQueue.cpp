@@ -94,11 +94,7 @@ int main(){
     int ch,data;
     do{
         cout<<endl<<"Menu"<<endl;
-        cout<<"1. Enqueue "<<endl;
-        cout<<"2. Dequeue "<<endl;
-        cout<<"3. Display the Queue "<<endl;
-        cout<<"4. Exit Menu"<<endl;
-        cout<<"Enter your choice: ";
+        cout<<"1. Enqueue \n"<<"2. Dequeue \n"<<"3. Display the Queue \n"<<"4. Exit Menu\n"<<"Enter your choice: ";
         cin>>ch;
         switch(ch){
             case 1: q.Enqueue();break;

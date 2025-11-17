@@ -37,10 +37,19 @@ public class bubbleSort {
     }
     public static void main(String[] args){
         ArrayList<Integer> original = new ArrayList<>();
-        insert(original);
-        display(original);
-        bubbleSort(original);
-        display(original);
+        int choice;
+        do{
+            System.out.println("Menu\n 1. Insert\n 2.Display\n 3.Sort\n 4. Exit\n Enter your Choice: " );
+            choice=sc.nextInt();
+            switch (choice) {
+                case 1: insert(original);break;
+                case 2: display(original);break;
+                case 3: bubbleSort(original);break;
+                case 4: System.out.println("Menu Exited! ");break;
+                default: System.out.println("Invalid Choice! ");break;
+            }
+        }
+        while (choice!=4);
         sc.close();
     }
 }

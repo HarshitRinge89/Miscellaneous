@@ -22,7 +22,7 @@ public class bfs {
     }
     public static void display(int vertex,ArrayList<ArrayList<Integer>> adj){
         for(int i=0;i<vertex;i++){
-            System.out.println(i + "->" + " ");
+            System.out.print(i + "->" + " ");
             for(int j=0;j<adj.get(i).size();j++){
                 System.out.print(adj.get(i).get(j) + " ");
             }
