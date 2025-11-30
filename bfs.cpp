@@ -50,6 +50,11 @@ int main(){
         AdjList[v].push_back(u);
     }
     SS.display(vertex,AdjList);
-    SS.bfsofgraph(vertex,AdjList);
-    SS.display(vertex,AdjList);
+    vector<int> result=SS.bfsofgraph(vertex,AdjList);
+    cout<<"\nBFS Traversal: ";
+    for(int x : result){
+        cout<<x<<" ";
+    }
+    cout<<endl;
+    return 0;
 }

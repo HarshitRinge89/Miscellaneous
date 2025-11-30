@@ -3,8 +3,8 @@
 using namespace std;
 class dfs{
     public:
-    void DFSrec(int node,vector<int>adj[],vector<int>ans,vector<bool>visited){
-        visited[0]=1;
+    void DFSrec(int node,vector<int>adj[],vector<int>&ans,vector<bool>&visited){
+        visited[node]=true;
         ans.push_back(node);
         for(int j=0;j<adj[node].size();j++){
             if(!visited[adj[node][j]]){
@@ -43,6 +43,11 @@ int main(){
         AdjList[v].push_back(u);
     }
     SS.display(vertex,AdjList);
-    SS.dfsofgraph(vertex,AdjList);
-    SS.display(vertex,AdjList);
+    vector<int> result=SS.dfsofgraph(vertex,AdjList);
+    cout<<"\nDFS Traversal: ";
+    for(int x : result){
+        cout<<x<<" ";
+    }
+    cout<<endl;
+    return 0;
 }
