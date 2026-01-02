@@ -8,7 +8,6 @@
 2. Stack Implementation (using Arrays) – **Java**
 3. Stack Implementation (using Linked List) – **C++**
 4. Stack Implementation (using Linked List) – **Java**
-
 ---
 
 ### **Queue**
@@ -21,7 +20,6 @@
 6. Circular Queue (using Linked List) – **C++**
 7. Circular Queue – Ticket Distribution System (using Arrays) – **C++**
 8. Double Ended Queue (Deque) Implementation – **C++**
-
 ---
 
 ### **Linked List**
@@ -31,14 +29,12 @@
 3. Insertion, Deletion & Traversal on Linked List – **C++**
 4. Doubly Linked List Implementation – **C++**
 5. Circular Linked List Implementation – **C++**
-
 ---
 
 ### **Tree**
 
 1. Binary Search Tree Implementation – **C++**
 2. Binary Search Tree Implementation – **Java**
-
 ---
 
 ## ⚙️ **Algorithms**
@@ -49,11 +45,8 @@
 2. Binary Search Implementation – **Java**
 3. Breadth First Search Implementation - **C++**
 4. Depth First Search Implementation - **C++**
-<<<<<<< HEAD
 5. Depth First Search Implementation - **Java**
 6. Breadth First Search Implementation - **Java**
->>>>>>> fadf5109d1ce8a5e349306314f444a58d5d94199
-
 ---
 
 ### **Stack-Based Conversions**

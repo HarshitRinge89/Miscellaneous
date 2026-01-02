@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Matrix {
+public class Matrixcalc {
     static Scanner sc = new Scanner(System.in);
     static int n,ch;
     public static int[][] choice(int MatA[][],int MatB[][]){
