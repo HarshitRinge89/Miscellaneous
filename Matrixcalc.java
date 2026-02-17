@@ -36,7 +36,7 @@ public class Matrixcalc {
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 for(int k=0;k<n;k++){
-                    MatC[i][j]+=MatA[i][j]*MatB[i][j];
+                    MatC[i][j]+=MatA[i][k]*MatB[k][j];
                 }
             }
         }
