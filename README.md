@@ -86,6 +86,7 @@
 4. Check Armstrong Number – **Java**
 5. Average CPU Usage of all Java Processes – **Java**
 6. Calculate Day of the Week from Date (1500–3000) – **Java**
+7. BitManipulator - **Java**
 
 ---
 
@@ -93,5 +94,6 @@
 
 1. Contact Manager – **Java**
 2. Terminal-Based RPG – **Java**
+3. Ticket Distribution - **C++**
 
 ---
