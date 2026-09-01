@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public  class Game{
+public  class terminalRPG{
     static int Plevel = 1,Pattack = 10,Phealth = 100,Mhealth = 100,Pheal = 10,Glevel =1,x=0,Mattack;
     public static void Battle(){
         for(;Phealth>=0;x++){
