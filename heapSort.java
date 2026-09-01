@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class heapsort{
+public class heapSort{
     int size,capacity;
     int arr[];
     int i=size;
-    heapsort(int n){
+    heapSort(int n){
         arr=new int[n];
         size=0;
         capacity=n;
@@ -71,7 +71,7 @@ public class heapsort{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of Heap: ");
         x=sc.nextInt();
-        heapsort bh= new heapsort(x);
+        heapSort bh= new heapSort(x);
         do{
             System.out.println("Menu\n" + "1.Insertion\n" + "2.Sort\n" + "3.Display\n"+"4.Exit\n" + "Enter your choice: ");
             ch=sc.nextInt();
