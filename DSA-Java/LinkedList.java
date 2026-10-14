@@ -1,3 +1,14 @@
+class Node {
+   int data;
+   Node left;
+   Node right;
+
+   public Node(int var1) {
+      this.data = var1;
+      this.left = this.right = null;
+   }
+}
+
 public class LinkedListOwn{
     public class Node{int data;Node next;}
     Node head;

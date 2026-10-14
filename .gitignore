@@ -1,0 +1,20 @@
+# Java compiled files
+*.class
+
+# Executables
+*.exe
+
+# C/C++ compiled files
+*.o
+*.obj
+*.out
+
+# Build directories
+bin/
+build/
+out/
+
+# IDE and OS files
+.idea/
+.DS_Store
+Thumbs.db
