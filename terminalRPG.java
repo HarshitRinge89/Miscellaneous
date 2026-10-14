@@ -13,6 +13,7 @@ public  class terminalRPG{
             else{System.out.println("Invalid choice");}
             Mattack=10 + (2*x);
             if((Phealth==0) || (Mhealth==0)){Escape();break;}
+            scl.close();
         }
     }
     public static void Attack(){
