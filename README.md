@@ -87,6 +87,7 @@
 5. Average CPU Usage of all Java Processes – **Java**
 6. Calculate Day of the Week from Date (1500–3000) – **Java**
 7. BitManipulator - **Java**
+8. Strassen's Matrix Multiplication - **Java**
 
 ---
 
